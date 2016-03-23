@@ -1,0 +1,207 @@
+// import bootstrap styles
+@import "../css/bootstrap.css";
+
+// import user LESS variables and mixins
+@import "variables.less";
+
+html, body {
+  height: 100%;
+}
+
+a {
+  &:focus {
+    outline: none;
+    text-decoration: none;
+  }
+}
+
+ul#main-nav {
+  height: 35px;
+  li {
+    height: 100%;
+    margin: 0;
+    &:last-child {
+      border: none;
+    }
+    a {
+      padding: 0;
+      border-radius: 0;
+      line-height: 35px;
+      &:hover, &:focus {
+        background: none;
+        text-decoration: underline;
+      }
+      span {
+        padding: 0 10px;
+      }
+    }
+    + li {
+      a {
+        span {
+          border-left: 1px solid #CCC;
+        }
+      }
+    }
+  }
+}
+
+#content {
+  min-width: 620px;
+  .calc(height; "100% - 35px");
+  border-top: 2px solid #CCC;
+  .sidebar {
+    width: 300px;
+    height: 100%;
+    padding: 10px;
+    overflow-y: auto;
+    ul {
+      padding: 0;
+      list-style-type: none;
+      li {
+        padding: 5px;
+        white-space: nowrap;
+        a {
+          color: inherit;
+          &:hover {
+            text-decoration: none;
+            color: #428bca;
+          }
+        }
+        &::before {
+          content: "";
+          display: inline-block;
+          width: 30px;
+          height: 30px;
+          margin-right: 5px;
+          vertical-align: middle;
+        }
+        &.icon-class1 {
+          &::before {
+            background: url(../images/icons.png) 0 0;
+          }
+        }
+        &.icon-class2 {
+          &::before {
+            background: url(../images/icons.png) -30px 0;
+          }
+        }
+        &.icon-class3 {
+          &::before {
+            background: url(../images/icons.png) -60px 0;
+          }
+        }
+        &.icon-class4 {
+          &::before {
+            background: url(../images/icons.png) -90px 0;
+          }
+        }
+        &.icon-class5 {
+          &::before {
+            background: url(../images/icons.png) -120px 0;
+          }
+        }
+        &.icon-class6 {
+          &::before {
+            background: url(../images/icons.png) 0px -30px;
+          }
+        }
+        &.icon-class7 {
+          &::before {
+            background: url(../images/icons.png) -30px -30px;
+          }
+        }
+        &.icon-class8 {
+          &::before {
+            background: url(../images/icons.png) -60px -30px;
+          }
+        }
+        &.icon-class9 {
+          &::before {
+            background: url(../images/icons.png) -90px -30px;
+          }
+        }
+        &.icon-class10 {
+          &::before {
+            background: url(../images/icons.png) -120px -30px;
+          }
+        }
+      }
+      ul {
+        padding-left: 10px;
+      }
+    }
+  }
+  .content {
+    height: 100%;
+    margin-left: 300px;
+    border-left: 2px solid #CCC;
+    #breadcrumb {
+      width: 100%;
+      height: 35px;
+      ul {
+        background: none;
+        li + li {
+          &::before {
+            content: '> ';
+          }
+        }
+      }
+    }
+  }
+}
+
+.content-main {
+  .calc(height; "100% - 35px");
+  overflow-y: auto;
+  border-top: 2px solid #CCC;
+  text-align: center;
+  .items {
+    padding: 10px;
+    text-align: center;
+    .item {
+      display: inline-block;
+      max-width: 290px;
+      padding: 15px;
+      vertical-align: top;
+      .item-content {
+        width: 100%;
+        height: 100%;
+        .img {
+          width: 262px;
+          height: 262px;
+          position: relative;
+          padding: 5px;
+          border: 1px solid #CCC;
+          border-radius: 5px;
+          cursor: pointer;
+          overflow: hidden;
+          &:hover {
+            .title {
+              bottom: 5px;
+              .transition(bottom .3s ease-in-out);
+            }
+          }
+          img {
+            max-width: 250px;
+            max-height: 250px;
+            .centerPosition(absolute);
+          }
+          .title {
+            width: 250px;
+            height: 100px;
+            position: absolute;
+            bottom: -100px;
+            background: rgba(0, 0, 0, 0.7);
+            .transition(bottom .3s ease-in-out);
+            p {
+              width: 230px;
+              .centerPosition(absolute);
+              font-size: 16px;
+              color: #FFF;
+            }
+          }
+        }
+      }
+    }
+  }
+}

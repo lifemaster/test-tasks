@@ -1,0 +1,196 @@
+@import "../css/bootstrap.css";
+html,
+body {
+  height: 100%;
+}
+a:focus {
+  outline: none;
+  text-decoration: none;
+}
+ul#main-nav {
+  height: 35px;
+}
+ul#main-nav li {
+  height: 100%;
+  margin: 0;
+}
+ul#main-nav li:last-child {
+  border: none;
+}
+ul#main-nav li a {
+  padding: 0;
+  border-radius: 0;
+  line-height: 35px;
+}
+ul#main-nav li a:hover,
+ul#main-nav li a:focus {
+  background: none;
+  text-decoration: underline;
+}
+ul#main-nav li a span {
+  padding: 0 10px;
+}
+ul#main-nav li + li a span {
+  border-left: 1px solid #CCC;
+}
+#content {
+  min-width: 620px;
+  height: calc(100% - 35px);
+  height: -moz-calc(100% - 35px);
+  height: -webkit-calc(100% - 35px);
+  height: -o-calc(100% - 35px);
+  border-top: 2px solid #CCC;
+}
+#content .sidebar {
+  width: 300px;
+  height: 100%;
+  padding: 10px;
+  overflow-y: auto;
+}
+#content .sidebar ul {
+  padding: 0;
+  list-style-type: none;
+}
+#content .sidebar ul li {
+  padding: 5px;
+  white-space: nowrap;
+}
+#content .sidebar ul li a {
+  color: inherit;
+}
+#content .sidebar ul li a:hover {
+  text-decoration: none;
+  color: #428bca;
+}
+#content .sidebar ul li::before {
+  content: "";
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+#content .sidebar ul li.icon-class1::before {
+  background: url(../images/icons.png) 0 0;
+}
+#content .sidebar ul li.icon-class2::before {
+  background: url(../images/icons.png) -30px 0;
+}
+#content .sidebar ul li.icon-class3::before {
+  background: url(../images/icons.png) -60px 0;
+}
+#content .sidebar ul li.icon-class4::before {
+  background: url(../images/icons.png) -90px 0;
+}
+#content .sidebar ul li.icon-class5::before {
+  background: url(../images/icons.png) -120px 0;
+}
+#content .sidebar ul li.icon-class6::before {
+  background: url(../images/icons.png) 0px -30px;
+}
+#content .sidebar ul li.icon-class7::before {
+  background: url(../images/icons.png) -30px -30px;
+}
+#content .sidebar ul li.icon-class8::before {
+  background: url(../images/icons.png) -60px -30px;
+}
+#content .sidebar ul li.icon-class9::before {
+  background: url(../images/icons.png) -90px -30px;
+}
+#content .sidebar ul li.icon-class10::before {
+  background: url(../images/icons.png) -120px -30px;
+}
+#content .sidebar ul ul {
+  padding-left: 10px;
+}
+#content .content {
+  height: 100%;
+  margin-left: 300px;
+  border-left: 2px solid #CCC;
+}
+#content .content #breadcrumb {
+  width: 100%;
+  height: 35px;
+}
+#content .content #breadcrumb ul {
+  background: none;
+}
+#content .content #breadcrumb ul li + li::before {
+  content: '> ';
+}
+.content-main {
+  height: calc(100% - 35px);
+  height: -moz-calc(100% - 35px);
+  height: -webkit-calc(100% - 35px);
+  height: -o-calc(100% - 35px);
+  overflow-y: auto;
+  border-top: 2px solid #CCC;
+  text-align: center;
+}
+.content-main .items {
+  padding: 10px;
+  text-align: center;
+}
+.content-main .items .item {
+  display: inline-block;
+  max-width: 290px;
+  padding: 15px;
+  vertical-align: top;
+}
+.content-main .items .item .item-content {
+  width: 100%;
+  height: 100%;
+}
+.content-main .items .item .item-content .img {
+  width: 262px;
+  height: 262px;
+  position: relative;
+  padding: 5px;
+  border: 1px solid #CCC;
+  border-radius: 5px;
+  cursor: pointer;
+  overflow: hidden;
+}
+.content-main .items .item .item-content .img:hover .title {
+  bottom: 5px;
+  -webkit-transition: bottom 0.3s ease-in-out;
+  -moz-transition: bottom 0.3s ease-in-out;
+  -o-transition: bottom 0.3s ease-in-out;
+  transition: bottom 0.3s ease-in-out;
+}
+.content-main .items .item .item-content .img img {
+  max-width: 250px;
+  max-height: 250px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.content-main .items .item .item-content .img .title {
+  width: 250px;
+  height: 100px;
+  position: absolute;
+  bottom: -100px;
+  background: rgba(0, 0, 0, 0.7);
+  -webkit-transition: bottom 0.3s ease-in-out;
+  -moz-transition: bottom 0.3s ease-in-out;
+  -o-transition: bottom 0.3s ease-in-out;
+  transition: bottom 0.3s ease-in-out;
+}
+.content-main .items .item .item-content .img .title p {
+  width: 230px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 16px;
+  color: #FFF;
+}
