@@ -1,0 +1,52 @@
+[
+  {
+    "id": "ID",
+    "name": "Название",
+    "description": "Описание",
+    "category": "Категория",
+    "price": "Цена",
+    "currency": "Валюта",
+    "quantity": "Количество",
+    "manufacturer": "Производитель"
+  },
+  [
+    "1",
+    "Материнская плата Asus Z97-A",
+    "1150 (Z97) 4xDDR3, SLI/CrossFireX, Int.Video(CPU), 6xSATA3/1xM.2, 3xPCI-E 16x, 2xPCI-E 1x, 2xPCI, I218V, ALC892, 6xUSB3.0/8xUSB2.0, ATX",
+    "Материнские платы",
+    "4299",
+    "грн",
+    "8",
+    "Asus"
+  ],
+  [
+    "2",
+    "Процессор LGA 1150 Intel Pentium G3240 Box",
+    "2x3,1GHz / HD Graphics / L3 3Mb / Haswell / 22nm / TDP 53W / BX80646G3240SR1K6",
+    "Процессоры Intel, LGA 1150",
+    "63",
+    "$",
+    "16",
+    "Intel"
+  ],
+  [
+    "3",
+    "Видеокарта GeForce GTX980 Ti OC",
+    "EVGA, FTW GAMING ACX 2.0+, 6Gb DDR5, 384-bit, DVI/HDMI/3xDP, 1291/7010MHz (06G-P4-4996-KR)",
+    "Видеокарты nVidia GeForce GTX (Hi-End)",
+    "22428",
+    "грн",
+    "28",
+    "nVidia"
+  ],
+  [
+    "4",
+    "Жесткий диск Western Digital WD5000AAKX",
+    "3.5\", 500Gb Western Digital Blue, SATA3, 16Mb, 7200 rpm",
+    "3.5\" HDD (Жесткие диски)",
+    "59.3",
+    "$",
+    "12",
+    "Western Digital"
+  ]
+]
