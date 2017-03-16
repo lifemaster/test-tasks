@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Materials Cloud (MCGL) web interface for specifying
+   and querying material design lab information">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="generator" content="MCGL App" />
+  <meta
+    http-equiv="Content-Security-Policy"
+    content="
+      default-src 'self' https://*.firebaseio.com;
+      script-src 'self' 'unsafe-inline' 'unsafe-eval' https://*.firebaseio.com https://www.google-analytics.com https://apis.google.com data:;
+      connect-src 'self' https://*.googleapis.com wss://*.firebaseio.com  https://*.materials.zone https://www.google-analytics.com ws://localhost:5000 https://localhost:4433 https://autoqa.materials.zone:4433;
+      img-src 'self' https://*.materials.zone https://*.firebaseapp.com https://*.googleapis.com https://www.google-analytics.com  http://localhost:5000 data: blob:;
+      style-src 'self' 'unsafe-inline' *.googleapis.com;
+      font-src 'self' fonts.gstatic.com;
+      frame-src https://*.firebaseapp.com https://*.firebaseio.com;
+  ">
+  <title>Materials Zone App</title>
+  <base href="/"></base>
+
+  <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+
+  <!-- Web Application Manifest -->
+  <link rel="manifest" href="/manifest.json">
+
+  <!-- Tile color for Win8 -->
+  <meta name="msapplication-TileColor" content="#3372DF">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- Add to homescreen for Chrome on Android -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="application-name" content="PSK">
+  <link rel="icon" sizes="192x192" href="/images/touch/apple-icon.png">
+
+  <!-- Add to homescreen for Safari on iOS -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="MCGL App">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+  <!-- Tile icon for Win8 (144x144) -->
+  <meta name="msapplication-TileImage" content="images/touch/ms-icon-144x144.png">
+  
+  <!-- Theme file -->
+  <link rel="stylesheet" href="styles/sky.css">
+
+  <!-- build:css styles/main.css -->
+  <link rel="stylesheet" href="styles/main.css">
+  <!-- endbuild-->
+
+  <!-- build:js bower_components/webcomponentsjs/webcomponents-lite.min.js -->
+  <script src="bower_components/webcomponentsjs/webcomponents-lite.js"></script>
+  <!-- endbuild -->
+
+  <script>
+    /* this script must run before Polymer is imported */
+    window.Polymer = {
+      lazyRegister: true
+    };
+  </script>
+
+  <!-- Polymer -->
+  <link rel="import" href="../bower_components/polymer/polymer.html">
+
+  <!-- will be replaced with elements/elements.vulcanized.html -->
+  <!-- <link rel="import" href="elements/elements.html"> -->
+  <!-- endreplace-->
+  
+  <!-- Root component -->
+  <link rel="import" href="elements/material-zone/material-zone-login.html">
+
+  <!-- For shared styles, shared-styles.html import in elements.html -->
+  <!-- <style is="custom-style" include="shared-styles"></style> -->
+  <link rel="import" href="styles/shared-styles.html">
+
+  <script src="../bower_components/firebase/firebase.js"></script>
+  <script src="./scripts/testing_connection.js"></script>
+  <script src="../bower_components/async/dist/async.min.js"></script>
+  <script src="../bower_components/lodash/dist/lodash.min.js"></script>
+</head>
+
+<body class="fullbleed show-logo layout vertical">
+  
+  <material-zone-login></material-zone-login>
+  <!-- endbuild-->
+
+  <span id="browser-sync-binding"></span>
+  <script async src='./lib/autotrack.js'></script>
+
+</body>
+
+</html>

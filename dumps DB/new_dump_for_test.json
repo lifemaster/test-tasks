@@ -1,0 +1,972 @@
+{
+  "Event_categories" : {
+    "-KSk2AuyCNZVbF5QLsVD" : {
+      "title" : "Uni"
+    },
+    "-KSk2MQfHZ9Y7hvCy4QH" : {
+      "title" : "Team"
+    },
+    "-KSk2PCzUJ0RO0svsT3s" : {
+      "title" : "User"
+    },
+    "-KSk2RxhP_TEmslk7O0b" : {
+      "title" : "Sample"
+    },
+    "-KSk2b7M9Yh1b0rI706h" : {
+      "title" : "Measurement"
+    },
+    "-KSk2eiasnG0-Ryw_ghp" : {
+      "title" : "Treatment"
+    },
+    "-KSk2ilpXrUvcmN_2Wp_" : {
+      "title" : "Process"
+    },
+    "-KSk2w_oaD-TsST00A8u" : {
+      "title" : "Golems"
+    },
+    "-KSk35VfQ6F_T9XE4Vo-" : {
+      "title" : "Physical Measurments"
+    },
+    "-KSk38ucH3asYzcsoRS6" : {
+      "title" : "Global Manufacturers"
+    },
+    "-KSk3DM1bMdrhCZFIZs1" : {
+      "title" : "Backup"
+    },
+    "-KSk3GNKp4mSQeHZfAzr" : {
+      "title" : "Deployment"
+    },
+    "-KUR67ygxFlhjTlx9pqJ" : {
+      "title" : "Support"
+    },
+    "-KaMzve9Gg7mw9NTXTlH" : {
+      "title" : "Lab Measurements"
+    },
+    "-KamClCcSecTP2jgmIg_" : {
+      "title" : "Parsers"
+    }
+  },
+  "Event_logs" : {
+    "-KagvAhhSh1LdJuMfraq" : {
+      "categorized_team" : true,
+      "changed_properties" : [ {
+        "new_value" : "First sample",
+        "prop_name" : "title"
+      }, {
+        "new_value" : "Description for first sample",
+        "prop_name" : "description"
+      } ],
+      "event_category_id" : "-KSk2RxhP_TEmslk7O0b",
+      "event_type_id" : "-KSk8PtElDeXWjvKxXI8",
+      "is_creation" : true,
+      "lab_initiator_id" : "-KKwOsLikgI4DmfgHZP8",
+      "log_message" : "Sample \"First sample\" was added by user \"Yuriy\"",
+      "model_id" : "-KagvAaYrUVlz5bV9vKk",
+      "processed" : true,
+      "sample_id" : "-KagvAaYrUVlz5bV9vKk",
+      "team_page" : true,
+      "timestamp" : 1484664912902,
+      "user_initiator_id" : "G4uO5shwM7fIvKZsiaTAIQL8jDx1",
+      "user_initiator_name" : "Yuriy"
+    },
+    "-KagvFLgYqnln5rUceyJ" : {
+      "categorized_team" : true,
+      "changed_properties" : [ {
+        "new_value" : "Second sample",
+        "prop_name" : "title"
+      }, {
+        "new_value" : "Description for second sample",
+        "prop_name" : "description"
+      } ],
+      "event_category_id" : "-KSk2RxhP_TEmslk7O0b",
+      "event_type_id" : "-KSk8PtElDeXWjvKxXI8",
+      "is_creation" : true,
+      "lab_initiator_id" : "-KKwOsLikgI4DmfgHZP8",
+      "log_message" : "Sample \"Second sample\" was added by user \"Yuriy\"",
+      "model_id" : "-KagvFEas5uACeHEJhAy",
+      "processed" : true,
+      "sample_id" : "-KagvFEas5uACeHEJhAy",
+      "team_page" : true,
+      "timestamp" : 1484664931909,
+      "user_initiator_id" : "G4uO5shwM7fIvKZsiaTAIQL8jDx1",
+      "user_initiator_name" : "Yuriy"
+    },
+    "-KagvIPgGuYcaxEzWKkn" : {
+      "categorized_team" : true,
+      "changed_properties" : [ {
+        "new_value" : "Third sample",
+        "prop_name" : "title"
+      }, {
+        "new_value" : "Description for second sample",
+        "prop_name" : "description"
+      } ],
+      "event_category_id" : "-KSk2RxhP_TEmslk7O0b",
+      "event_type_id" : "-KSk8PtElDeXWjvKxXI8",
+      "is_creation" : true,
+      "lab_initiator_id" : "-KKwOsLikgI4DmfgHZP8",
+      "log_message" : "Sample \"Third sample\" was added by user \"Yuriy\"",
+      "model_id" : "-KagvIDit81E5ljFeseN",
+      "processed" : true,
+      "sample_id" : "-KagvIDit81E5ljFeseN",
+      "team_page" : true,
+      "timestamp" : 1484664944453,
+      "user_initiator_id" : "G4uO5shwM7fIvKZsiaTAIQL8jDx1",
+      "user_initiator_name" : "Yuriy"
+    }
+  },
+  "Event_types" : {
+    "-KSk6-sVAi--s93LJMqG" : {
+      "allowed_roles" : [ "root", "labMaster", "user" ],
+      "event_category_id" : "-KSk2AuyCNZVbF5QLsVD",
+      "model_name" : "Institutions",
+      "title" : "added"
+    },
+    "-KSk6F9g01Q1_sxHLdRd" : {
+      "allowed_roles" : [ "root", "labMaster", "user" ],
+      "event_category_id" : "-KSk2AuyCNZVbF5QLsVD",
+      "model_name" : "Institutions",
+      "title" : "Edited"
+    },
+    "-KSk6mbf_yck0D-nq3XE" : {
+      "allowed_roles" : [ "root", "labMaster", "user" ],
+      "event_category_id" : "-KSk2MQfHZ9Y7hvCy4QH",
+      "model_name" : "Labs",
+      "title" : "New team"
+    },
+    "-KSk6rblTllr70KuM333" : {
+      "allowed_roles" : [ "root", "labMaster", "user" ],
+      "event_category_id" : "-KSk2MQfHZ9Y7hvCy4QH",
+      "model_name" : "Labs",
+      "title" : "team name changed"
+    },
+    "-KSk7HLppmlvyXn-DObz" : {
+      "allowed_roles" : [ "root", "labMaster", "user" ],
+      "event_category_id" : "-KSk2PCzUJ0RO0svsT3s",
+      "model_name" : "Users",
+      "title" : "Change in profile details"
+    },
+    "-KSk7PsClYzujAbq-tSD" : {
+      "allowed_roles" : [ "root", "labMaster", "user" ],
+      "event_category_id" : "-KSk2PCzUJ0RO0svsT3s",
+      "model_name" : "Users",
+      "title" : "User joined"
+    },
+    "-KSk7Zy8AkicSYfOQqL6" : {
+      "allowed_roles" : [ "root", "labMaster", "user" ],
+      "event_category_id" : "-KSk2PCzUJ0RO0svsT3s",
+      "model_name" : "Users",
+      "title" : "User change password"
+    },
+    "-KSk7c8GtcRO01ZHdaBM" : {
+      "allowed_roles" : [ "root", "labMaster", "user" ],
+      "event_category_id" : "-KSk2PCzUJ0RO0svsT3s",
+      "model_name" : "Users",
+      "title" : "user can not login to the system"
+    },
+    "-KSk8PtElDeXWjvKxXI8" : {
+      "allowed_roles" : [ "root", "labMaster", "user" ],
+      "event_category_id" : "-KSk2RxhP_TEmslk7O0b",
+      "model_name" : "Samples",
+      "title" : "Sample creation"
+    },
+    "-KSk8WPYRtJZO22ti_DG" : {
+      "allowed_roles" : [ "root", "labMaster", "user" ],
+      "event_category_id" : "-KSk2RxhP_TEmslk7O0b",
+      "model_name" : "Samples",
+      "title" : "Sample name change"
+    },
+    "-KSk8bM_KGxP72OHB02C" : {
+      "allowed_roles" : [ "root", "labMaster", "user" ],
+      "event_category_id" : "-KSk2RxhP_TEmslk7O0b",
+      "model_name" : "Samples",
+      "title" : "Sample description change"
+    },
+    "-KSk8slbEFU_DbOZ_Blq" : {
+      "allowed_roles" : [ "root", "labMaster", "user" ],
+      "event_category_id" : "-KSk2b7M9Yh1b0rI706h",
+      "model_name" : "Measurements",
+      "title" : "Measurement relate"
+    },
+    "-KSk91wPADxVPLW4Q6Kb" : {
+      "allowed_roles" : [ "root", "labMaster", "user" ],
+      "event_category_id" : "-KSk2b7M9Yh1b0rI706h",
+      "model_name" : "Measurements",
+      "title" : "Parser changed"
+    },
+    "-KSk96TOU3T8ofWn8mD8" : {
+      "allowed_roles" : [ "root", "labMaster", "user" ],
+      "event_category_id" : "-KSk2b7M9Yh1b0rI706h",
+      "model_name" : "Measurements",
+      "title" : "Measurement description"
+    },
+    "-KSk9C1NLU9ExXLoJnxm" : {
+      "allowed_roles" : [ "root", "labMaster", "user" ],
+      "event_category_id" : "-KSk2b7M9Yh1b0rI706h",
+      "model_name" : "Measurements",
+      "title" : "Measurement index"
+    },
+    "-KSk9HGIiRLSZeVz-49D" : {
+      "allowed_roles" : [ "root", "labMaster", "user" ],
+      "event_category_id" : "-KSk2b7M9Yh1b0rI706h",
+      "model_name" : "Measurements",
+      "title" : "Archive"
+    },
+    "-KSk9ZNT4zeyChvj4MUd" : {
+      "allowed_roles" : [ "root", "labMaster", "user" ],
+      "event_category_id" : "-KSk2eiasnG0-Ryw_ghp",
+      "model_name" : "Treatments",
+      "title" : "Added"
+    },
+    "-KSk9e0a_S_NRiKS7sEU" : {
+      "allowed_roles" : [ "root", "labMaster", "user" ],
+      "event_category_id" : "-KSk2eiasnG0-Ryw_ghp",
+      "model_name" : "Treatments",
+      "title" : "Edited"
+    },
+    "-KSk9qXjNMSuiKM9BnVB" : {
+      "allowed_roles" : [ "root", "labMaster", "user" ],
+      "event_category_id" : "-KSk2w_oaD-TsST00A8u",
+      "model_name" : "Golems",
+      "title" : "New Golem Added"
+    },
+    "-KSk9wGMptw3gUQGwVR5" : {
+      "allowed_roles" : [ "root", "labMaster", "user" ],
+      "event_category_id" : "-KSk2w_oaD-TsST00A8u",
+      "model_name" : "Golems",
+      "title" : "Edited"
+    },
+    "-KSkA-Ow9MJ-OMv71SpK" : {
+      "allowed_roles" : [ "root", "labMaster", "user" ],
+      "event_category_id" : "-KSk2w_oaD-TsST00A8u",
+      "model_name" : "Golems",
+      "title" : "Golem alive state"
+    },
+    "-KSolTDnJBAGLpTmKaqx" : {
+      "allowed_roles" : [ "root", "labMaster", "user" ],
+      "event_category_id" : "-KSk35VfQ6F_T9XE4Vo-",
+      "model_name" : "physical_measurements",
+      "title" : "added"
+    },
+    "-KSomLUiCQ-YsB6xQ_1w" : {
+      "allowed_roles" : [ "root", "labMaster", "user" ],
+      "event_category_id" : "-KSk35VfQ6F_T9XE4Vo-",
+      "model_name" : "physical_measurements",
+      "title" : "edited"
+    },
+    "-KSom_2qRHuDeK0WvvGa" : {
+      "allowed_roles" : [ "root", "labMaster", "user" ],
+      "event_category_id" : "-KSk38ucH3asYzcsoRS6",
+      "model_name" : "manufacturers",
+      "title" : "Added"
+    },
+    "-KSomg-JRoW-rzbxPFQ9" : {
+      "allowed_roles" : [ "root", "labMaster", "user" ],
+      "event_category_id" : "-KSk38ucH3asYzcsoRS6",
+      "model_name" : "manufacturers",
+      "title" : "Edited"
+    },
+    "-KT8ktFWIHUGWRIvJFol" : {
+      "allowed_roles" : [ "root", "labMaster", "user" ],
+      "event_category_id" : "-KSk2RxhP_TEmslk7O0b",
+      "model_name" : "Samples",
+      "title" : "Sample change from private to shared"
+    },
+    "-KT8l5k7mf93csumv_o2" : {
+      "allowed_roles" : [ "root", "labMaster", "user" ],
+      "event_category_id" : "-KSk2RxhP_TEmslk7O0b",
+      "model_name" : "Samples",
+      "title" : "Sample change time to public"
+    },
+    "-KUR85n4VlArc9eb_mjw" : {
+      "allowed_roles" : [ "root", "labMaster", "user" ],
+      "event_category_id" : "-KUR67ygxFlhjTlx9pqJ",
+      "model_name" : "Support_messages",
+      "title" : "support added"
+    },
+    "-KUR8JT8RBjzKbmfTtN4" : {
+      "allowed_roles" : [ "root", "labMaster", "user" ],
+      "event_category_id" : "-KUR67ygxFlhjTlx9pqJ",
+      "model_name" : "Support_messages",
+      "title" : "support status changed"
+    },
+    "-K_nWFhVHXOA79drLJNl" : {
+      "allowed_roles" : [ "root", "labMaster", "user" ],
+      "event_category_id" : "-KSk2b7M9Yh1b0rI706h",
+      "model_name" : "Measurements",
+      "title" : "Measurement pass"
+    },
+    "-KaMaCn0VWxGPS_da_la" : {
+      "allowed_roles" : [ "root", "labMaster", "user" ],
+      "event_category_id" : "-KSk2w_oaD-TsST00A8u",
+      "model_name" : "Golems",
+      "title" : "validate golem request"
+    },
+    "-KaN-NyKF7iJf2Qbckvc" : {
+      "allowed_roles" : [ "root", "labMaster", "user" ],
+      "event_category_id" : "-KaMzve9Gg7mw9NTXTlH",
+      "model_name" : "lab_measurements",
+      "title" : "added"
+    },
+    "-KaN-VLWk6v_AA1EqvjJ" : {
+      "allowed_roles" : [ "root", "labMaster", "user" ],
+      "event_category_id" : "-KaMzve9Gg7mw9NTXTlH",
+      "model_name" : "lab_measurements",
+      "title" : "changed"
+    },
+    "-KaN-_PPYnd6BPKQrmh9" : {
+      "allowed_roles" : [ "root", "labMaster", "user" ],
+      "event_category_id" : "-KaMzve9Gg7mw9NTXTlH",
+      "model_name" : "lab_measurements",
+      "title" : "removed"
+    },
+    "-KamD6llFY8KQy_Ov5sx" : {
+      "allowed_roles" : [ "root" ],
+      "event_category_id" : "-KamClCcSecTP2jgmIg_",
+      "model_name" : "parsers",
+      "title" : "added"
+    },
+    "-KcXOlk59rl0xmWtPqxL" : {
+      "allowed_roles" : [ "root" ],
+      "event_category_id" : "-KamClCcSecTP2jgmIg_",
+      "model_name" : "parsers",
+      "title" : "edited"
+    }
+  },
+  "Golems" : {
+    "-KZMiPPRwbY77NCTW6Ip" : {
+      "description" : "Description for golem",
+      "host_institution" : "-KKwMRCdwxnltgrc-0d_",
+      "joined_ts" : 1482161760056,
+      "lab" : "-KKwOsLikgI4DmfgHZP8",
+      "lab_measurements" : [ "-KZMj9n1nm7kvsQ2UGUc", "-KZMjBe8uStCnnTfSN--", "-KZMjDBEyPQwqvJxit10", "-KZMjJJOLmuK29ZDUp77", "-KZMjMdxBC_E6CENvlRi", "-KZMjOy5liv-sGFqIxAD" ],
+      "name" : "golem",
+      "status" : "offline",
+      "title" : "Golem"
+    }
+  },
+  "Institutions" : {
+    "-KKwMRCdwxnltgrc-0d_" : {
+      "country" : "US",
+      "joined_ts" : 1456670008497,
+      "labs" : [ "-KKwOsLikgI4DmfgHZP8" ],
+      "locale" : "Asia/Jerusalem",
+      "name" : "BIU"
+    }
+  },
+  "LabLogs" : {
+    "Team" : {
+      "-KKwOsLikgI4DmfgHZP8" : {
+        "-KagvAkAJ_LQMFpicdys" : {
+          "changed_properties" : [ {
+            "new_value" : "First sample",
+            "prop_name" : "title"
+          }, {
+            "new_value" : "Description for first sample",
+            "prop_name" : "description"
+          } ],
+          "event_category_id" : "-KSk2RxhP_TEmslk7O0b",
+          "event_type_id" : "-KSk8PtElDeXWjvKxXI8",
+          "is_creation" : true,
+          "lab_initiator_id" : "-KKwOsLikgI4DmfgHZP8",
+          "log_message" : "Sample \"First sample\" was added by user \"Yuriy\"",
+          "model_id" : "-KagvAaYrUVlz5bV9vKk",
+          "sample_id" : "-KagvAaYrUVlz5bV9vKk",
+          "team_page" : true,
+          "timestamp" : 1484664912902,
+          "user_initiator_id" : "G4uO5shwM7fIvKZsiaTAIQL8jDx1",
+          "user_initiator_name" : "Yuriy"
+        },
+        "-KagvFOBIPv2VJmMakfa" : {
+          "changed_properties" : [ {
+            "new_value" : "Second sample",
+            "prop_name" : "title"
+          }, {
+            "new_value" : "Description for second sample",
+            "prop_name" : "description"
+          } ],
+          "event_category_id" : "-KSk2RxhP_TEmslk7O0b",
+          "event_type_id" : "-KSk8PtElDeXWjvKxXI8",
+          "is_creation" : true,
+          "lab_initiator_id" : "-KKwOsLikgI4DmfgHZP8",
+          "log_message" : "Sample \"Second sample\" was added by user \"Yuriy\"",
+          "model_id" : "-KagvFEas5uACeHEJhAy",
+          "sample_id" : "-KagvFEas5uACeHEJhAy",
+          "team_page" : true,
+          "timestamp" : 1484664931909,
+          "user_initiator_id" : "G4uO5shwM7fIvKZsiaTAIQL8jDx1",
+          "user_initiator_name" : "Yuriy"
+        },
+        "-KagvIS6FyWQmmy_Lk8Z" : {
+          "changed_properties" : [ {
+            "new_value" : "Third sample",
+            "prop_name" : "title"
+          }, {
+            "new_value" : "Description for second sample",
+            "prop_name" : "description"
+          } ],
+          "event_category_id" : "-KSk2RxhP_TEmslk7O0b",
+          "event_type_id" : "-KSk8PtElDeXWjvKxXI8",
+          "is_creation" : true,
+          "lab_initiator_id" : "-KKwOsLikgI4DmfgHZP8",
+          "log_message" : "Sample \"Third sample\" was added by user \"Yuriy\"",
+          "model_id" : "-KagvIDit81E5ljFeseN",
+          "sample_id" : "-KagvIDit81E5ljFeseN",
+          "team_page" : true,
+          "timestamp" : 1484664944453,
+          "user_initiator_id" : "G4uO5shwM7fIvKZsiaTAIQL8jDx1",
+          "user_initiator_name" : "Yuriy"
+        }
+      }
+    }
+  },
+  "Lab_samples" : {
+    "-KKwOsLikgI4DmfgHZP8" : {
+      "-KagvAaYrUVlz5bV9vKk" : {
+        "description" : "Description for first sample",
+        "last_activity" : 1484664912366,
+        "owner_lab" : "-KKwOsLikgI4DmfgHZP8",
+        "owner_user" : "G4uO5shwM7fIvKZsiaTAIQL8jDx1",
+        "privacy" : "private",
+        "sample_id" : "yuriy_1701171654",
+        "timestamp" : 1484664912366,
+        "title" : "First sample",
+        "treatments" : true
+      },
+      "-KagvFEas5uACeHEJhAy" : {
+        "description" : "Description for second sample",
+        "last_activity" : 1484664931377,
+        "owner_lab" : "-KKwOsLikgI4DmfgHZP8",
+        "owner_user" : "G4uO5shwM7fIvKZsiaTAIQL8jDx1",
+        "privacy" : "private",
+        "sample_id" : "yuriy_1701171655",
+        "timestamp" : 1484664931377,
+        "title" : "Second sample",
+        "treatments" : true
+      },
+      "-KagvIDit81E5ljFeseN" : {
+        "description" : "Description for second sample",
+        "last_activity" : 1484664943609,
+        "owner_lab" : "-KKwOsLikgI4DmfgHZP8",
+        "owner_user" : "G4uO5shwM7fIvKZsiaTAIQL8jDx1",
+        "privacy" : "private",
+        "sample_id" : "yuriy_1701171655",
+        "timestamp" : 1484664943609,
+        "title" : "Third sample",
+        "treatments" : true
+      }
+    }
+  },
+  "Labs" : {
+    "-KKwOsLikgI4DmfgHZP8" : {
+      "creator" : "5WTRGdF8tfPK56wSxwoWQbeYAiz1",
+      "description" : "Sandbox for testing MCGL functionality",
+      "golems" : [ "-KZMiPPRwbY77NCTW6Ip" ],
+      "host_institution" : "-KKwMRCdwxnltgrc-0d_",
+      "joined_ts" : 1456670008497,
+      "name" : "AZ team",
+      "timezone" : "IST",
+      "users" : [ "G4uO5shwM7fIvKZsiaTAIQL8jDx1" ]
+    }
+  },
+  "Promotion_config" : {
+    "coffee" : {
+      "limit" : 50,
+      "pending" : 1,
+      "received" : 3
+    }
+  },
+  "Promotions" : {
+    "-KYwmXqmZqYE5qgFp3Jy" : {
+      "exp" : 1484301860100,
+      "processed" : true,
+      "type" : "coffee",
+      "user" : "G4uO5shwM7fIvKZsiaTAIQL8jDx1"
+    }
+  },
+  "Roles" : {
+    "labMaster" : "Lab Master",
+    "root" : "Admin",
+    "user" : "User"
+  },
+  "RootLogs" : {
+    "Team" : {
+      "-KagvAk8F4dm0YuHFbiF" : {
+        "changed_properties" : [ {
+          "new_value" : "First sample",
+          "prop_name" : "title"
+        }, {
+          "new_value" : "Description for first sample",
+          "prop_name" : "description"
+        } ],
+        "event_category_id" : "-KSk2RxhP_TEmslk7O0b",
+        "event_type_id" : "-KSk8PtElDeXWjvKxXI8",
+        "is_creation" : true,
+        "lab_initiator_id" : "-KKwOsLikgI4DmfgHZP8",
+        "log_message" : "Sample \"First sample\" was added by user \"Yuriy\"",
+        "model_id" : "-KagvAaYrUVlz5bV9vKk",
+        "sample_id" : "-KagvAaYrUVlz5bV9vKk",
+        "team_page" : true,
+        "timestamp" : 1484664912902,
+        "user_initiator_id" : "G4uO5shwM7fIvKZsiaTAIQL8jDx1",
+        "user_initiator_name" : "Yuriy"
+      },
+      "-KagvFO8f0RTFDwpHZMa" : {
+        "changed_properties" : [ {
+          "new_value" : "Second sample",
+          "prop_name" : "title"
+        }, {
+          "new_value" : "Description for second sample",
+          "prop_name" : "description"
+        } ],
+        "event_category_id" : "-KSk2RxhP_TEmslk7O0b",
+        "event_type_id" : "-KSk8PtElDeXWjvKxXI8",
+        "is_creation" : true,
+        "lab_initiator_id" : "-KKwOsLikgI4DmfgHZP8",
+        "log_message" : "Sample \"Second sample\" was added by user \"Yuriy\"",
+        "model_id" : "-KagvFEas5uACeHEJhAy",
+        "sample_id" : "-KagvFEas5uACeHEJhAy",
+        "team_page" : true,
+        "timestamp" : 1484664931909,
+        "user_initiator_id" : "G4uO5shwM7fIvKZsiaTAIQL8jDx1",
+        "user_initiator_name" : "Yuriy"
+      },
+      "-KagvIS5uiknLHZ6tdUd" : {
+        "changed_properties" : [ {
+          "new_value" : "Third sample",
+          "prop_name" : "title"
+        }, {
+          "new_value" : "Description for second sample",
+          "prop_name" : "description"
+        } ],
+        "event_category_id" : "-KSk2RxhP_TEmslk7O0b",
+        "event_type_id" : "-KSk8PtElDeXWjvKxXI8",
+        "is_creation" : true,
+        "lab_initiator_id" : "-KKwOsLikgI4DmfgHZP8",
+        "log_message" : "Sample \"Third sample\" was added by user \"Yuriy\"",
+        "model_id" : "-KagvIDit81E5ljFeseN",
+        "sample_id" : "-KagvIDit81E5ljFeseN",
+        "team_page" : true,
+        "timestamp" : 1484664944453,
+        "user_initiator_id" : "G4uO5shwM7fIvKZsiaTAIQL8jDx1",
+        "user_initiator_name" : "Yuriy"
+      }
+    }
+  },
+  "Runtimes" : {
+    "nodejs" : {
+      "command" : "node",
+      "title" : "NodeJS"
+    },
+    "python" : {
+      "command" : "python",
+      "title" : "Python"
+    }
+  },
+  "Samples_List" : {
+    "-KagvAaYrUVlz5bV9vKk" : {
+      "description" : "Description for first sample",
+      "labs_list" : {
+        "-KKwOsLikgI4DmfgHZP8" : true
+      },
+      "last_activity" : 1484664912366,
+      "owner_lab" : "-KKwOsLikgI4DmfgHZP8",
+      "owner_user" : "G4uO5shwM7fIvKZsiaTAIQL8jDx1",
+      "privacy" : "private",
+      "processed" : true,
+      "sample_id" : "yuriy_1701171654",
+      "timestamp" : 1484664912366,
+      "title" : "First sample",
+      "treatments" : true
+    },
+    "-KagvFEas5uACeHEJhAy" : {
+      "description" : "Description for second sample",
+      "labs_list" : {
+        "-KKwOsLikgI4DmfgHZP8" : true
+      },
+      "last_activity" : 1484664931377,
+      "owner_lab" : "-KKwOsLikgI4DmfgHZP8",
+      "owner_user" : "G4uO5shwM7fIvKZsiaTAIQL8jDx1",
+      "privacy" : "private",
+      "processed" : true,
+      "sample_id" : "yuriy_1701171655",
+      "timestamp" : 1484664931377,
+      "title" : "Second sample",
+      "treatments" : true
+    },
+    "-KagvIDit81E5ljFeseN" : {
+      "description" : "Description for second sample",
+      "labs_list" : {
+        "-KKwOsLikgI4DmfgHZP8" : true
+      },
+      "last_activity" : 1484664943609,
+      "owner_lab" : "-KKwOsLikgI4DmfgHZP8",
+      "owner_user" : "G4uO5shwM7fIvKZsiaTAIQL8jDx1",
+      "privacy" : "private",
+      "processed" : true,
+      "sample_id" : "yuriy_1701171655",
+      "timestamp" : 1484664943609,
+      "title" : "Third sample",
+      "treatments" : true
+    }
+  },
+  "Samples_items" : {
+    "-KagvAaYrUVlz5bV9vKk" : {
+      "-KagvAcx-8NI_wd6O7sX" : {
+        "description" : "Description for first sample",
+        "timestamp" : 1484664912519,
+        "title" : "First sample",
+        "type" : "treatment",
+        "user" : "G4uO5shwM7fIvKZsiaTAIQL8jDx1"
+      }
+    },
+    "-KagvFEas5uACeHEJhAy" : {
+      "-KagvFGyW239mkZzke9H" : {
+        "description" : "Description for second sample",
+        "timestamp" : 1484664931529,
+        "title" : "Second sample",
+        "type" : "treatment",
+        "user" : "G4uO5shwM7fIvKZsiaTAIQL8jDx1"
+      }
+    },
+    "-KagvIDit81E5ljFeseN" : {
+      "-KagvIKkmK26ZxM9ZPqy" : {
+        "description" : "Description for second sample",
+        "timestamp" : 1484664944058,
+        "title" : "Third sample",
+        "type" : "treatment",
+        "user" : "G4uO5shwM7fIvKZsiaTAIQL8jDx1"
+      }
+    }
+  },
+  "Users" : {
+    "65rGrCLYZkV2gDCDfqV5L7BQlQs1" : {
+      "affiliate_primary" : "-KKwOsLikgI4DmfgHZP8",
+      "creator" : "Yuriy",
+      "email" : "konstantin.shyika@workrocks.ua",
+      "host_institution" : "-KKwMRCdwxnltgrc-0d_",
+      "joined_ts" : 1482161583015,
+      "last_login" : 1483710871423,
+      "name" : "Kostya Shyika",
+      "new_logs" : true,
+      "role" : "labMaster",
+      "status" : "active",
+      "userid" : "kostya"
+    },
+    "G4uO5shwM7fIvKZsiaTAIQL8jDx1" : {
+      "affiliate_primary" : "-KKwOsLikgI4DmfgHZP8",
+      "email" : "yuriy.stryzhekozin@workrocks.com",
+      "host_institution" : "-KKwMRCdwxnltgrc-0d_",
+      "joined_ts" : 1456670008497,
+      "last_active_ts" : 1484664944458,
+      "last_login" : 1484664883331,
+      "name" : "Yuriy",
+      "new_logs" : true,
+      "promotion" : {
+        "coffee" : {
+          "-KYwmXqmZqYE5qgFp3Jy" : true
+        },
+        "coffee_received" : true
+      },
+      "promotion_counter" : {
+        "coffee" : 0
+      },
+      "role" : "root",
+      "status" : "active",
+      "userid" : "yuriy"
+    }
+  },
+  "Users_ids" : [ "yuriy", "kostya" ],
+  "global_instruments" : {
+    "-KZMiZoQWEW93esn3Iqv" : {
+      "description" : "",
+      "manufacturer" : "-KZMiU3w_g6rlNUIQXXP",
+      "model" : "D-900",
+      "timestamp" : 1482161802601,
+      "url" : "",
+      "user_add" : "G4uO5shwM7fIvKZsiaTAIQL8jDx1"
+    },
+    "-KZMibN17H_uxLhHVqfa" : {
+      "description" : "",
+      "manufacturer" : "-KZMiW1fKU0iU50h_vrF",
+      "model" : "iPhone 6s",
+      "timestamp" : 1482161813072,
+      "url" : "",
+      "user_add" : "G4uO5shwM7fIvKZsiaTAIQL8jDx1"
+    }
+  },
+  "lab_measurements" : {
+    "-KZMj9n1nm7kvsQ2UGUc" : {
+      "added_by_user_id" : "G4uO5shwM7fIvKZsiaTAIQL8jDx1",
+      "added_timestamp" : 1482161958160,
+      "global_instrument_id" : "-KZMiZoQWEW93esn3Iqv",
+      "golem_id" : "-KZMiPPRwbY77NCTW6Ip",
+      "host_institution" : "-KKwMRCdwxnltgrc-0d_",
+      "lab_id" : "-KKwOsLikgI4DmfgHZP8",
+      "parsers_id" : "-KQUUZ4V8pDkZifwAJ22",
+      "physical_measurements_id" : "-KZMj1aN5WuPdEsmTqsz"
+    },
+    "-KZMjBe8uStCnnTfSN--" : {
+      "added_by_user_id" : "G4uO5shwM7fIvKZsiaTAIQL8jDx1",
+      "added_timestamp" : 1482161965783,
+      "global_instrument_id" : "-KZMibN17H_uxLhHVqfa",
+      "golem_id" : "-KZMiPPRwbY77NCTW6Ip",
+      "host_institution" : "-KKwMRCdwxnltgrc-0d_",
+      "lab_id" : "-KKwOsLikgI4DmfgHZP8",
+      "parsers_id" : "-KQUUb_l4w5ve1ZV3OUJ",
+      "physical_measurements_id" : "-KZMj55zrjijqnvBb2dS"
+    },
+    "-KZMjDBEyPQwqvJxit10" : {
+      "added_by_user_id" : "G4uO5shwM7fIvKZsiaTAIQL8jDx1",
+      "added_timestamp" : 1482161972060,
+      "global_instrument_id" : "-KZMibN17H_uxLhHVqfa",
+      "golem_id" : "-KZMiPPRwbY77NCTW6Ip",
+      "host_institution" : "-KKwMRCdwxnltgrc-0d_",
+      "lab_id" : "-KKwOsLikgI4DmfgHZP8",
+      "parsers_id" : "-KQziCO1U4w1HNJJgulH",
+      "physical_measurements_id" : "-KZMj55zrjijqnvBb2dS"
+    },
+    "-KZMjJJOLmuK29ZDUp77" : {
+      "added_by_user_id" : "G4uO5shwM7fIvKZsiaTAIQL8jDx1",
+      "added_timestamp" : 1482161997159,
+      "global_instrument_id" : "-KZMibN17H_uxLhHVqfa",
+      "golem_id" : "-KZMiPPRwbY77NCTW6Ip",
+      "host_institution" : "-KKwMRCdwxnltgrc-0d_",
+      "lab_id" : "-KKwOsLikgI4DmfgHZP8",
+      "parsers_id" : "-KTF50OcsGPUPNiiVOxq",
+      "physical_measurements_id" : "-KZMj55zrjijqnvBb2dS"
+    },
+    "-KZMjMdxBC_E6CENvlRi" : {
+      "added_by_user_id" : "G4uO5shwM7fIvKZsiaTAIQL8jDx1",
+      "added_timestamp" : 1482162010827,
+      "global_instrument_id" : "-KZMibN17H_uxLhHVqfa",
+      "golem_id" : "-KZMiPPRwbY77NCTW6Ip",
+      "host_institution" : "-KKwMRCdwxnltgrc-0d_",
+      "lab_id" : "-KKwOsLikgI4DmfgHZP8",
+      "parsers_id" : "-KTyYYllV0ob35EX3fHu",
+      "physical_measurements_id" : "-KZMj55zrjijqnvBb2dS"
+    },
+    "-KZMjOy5liv-sGFqIxAD" : {
+      "added_by_user_id" : "G4uO5shwM7fIvKZsiaTAIQL8jDx1",
+      "added_timestamp" : 1482162020308,
+      "global_instrument_id" : "-KZMibN17H_uxLhHVqfa",
+      "golem_id" : "-KZMiPPRwbY77NCTW6Ip",
+      "host_institution" : "-KKwMRCdwxnltgrc-0d_",
+      "lab_id" : "-KKwOsLikgI4DmfgHZP8",
+      "parsers_id" : "-KYmNeM0dCMbDZZfoMg-",
+      "physical_measurements_id" : "-KZMj55zrjijqnvBb2dS"
+    }
+  },
+  "manufacturers" : {
+    "-KZMiU3w_g6rlNUIQXXP" : {
+      "description" : "",
+      "name" : "Samsung",
+      "timestamp" : 1482161779159,
+      "url" : "",
+      "user_add" : "G4uO5shwM7fIvKZsiaTAIQL8jDx1"
+    },
+    "-KZMiW1fKU0iU50h_vrF" : {
+      "description" : "",
+      "name" : "Apple",
+      "timestamp" : 1482161787205,
+      "url" : "",
+      "user_add" : "G4uO5shwM7fIvKZsiaTAIQL8jDx1"
+    }
+  },
+  "parsers" : {
+    "-KQUUZ4V8pDkZifwAJ22" : {
+      "added_by_user_id" : "IyTDF5NOMgOCQypn0xtl4BMt0Z83",
+      "added_by_user_name" : "Assaf Anderson",
+      "added_timestamp" : 1471856032943,
+      "create_logged" : true,
+      "data_type" : "json",
+      "description" : "parser for TXT files",
+      "file_extension" : "txt",
+      "name" : "JY Raman txt parser",
+      "parserID" : "JY_Raman_txt_parser",
+      "runtime" : "node",
+      "slave_parser" : [ "txt" ],
+      "view_type" : "2D"
+    },
+    "-KQUUb_l4w5ve1ZV3OUJ" : {
+      "added_by_user_id" : "IyTDF5NOMgOCQypn0xtl4BMt0Z83",
+      "added_by_user_name" : "Assaf Anderson",
+      "added_timestamp" : 1471856032943,
+      "create_logged" : true,
+      "data_type" : "json",
+      "description" : "parser for CSV files",
+      "file_extension" : "csv",
+      "name" : "Default CSV parser",
+      "parserID" : "Default_CSV_parser",
+      "runtime" : "node",
+      "slave_parser" : [ "csv" ],
+      "view_type" : "2D"
+    },
+    "-KQziCO1U4w1HNJJgulH" : {
+      "added_by_user_id" : "IyTDF5NOMgOCQypn0xtl4BMt0Z83",
+      "added_by_user_name" : "Assaf Anderson",
+      "added_timestamp" : 1471856032943,
+      "create_logged" : true,
+      "data_type" : "json",
+      "description" : "parser for CSV files",
+      "file_extension" : "CSV",
+      "name" : "fluorometer csv parser",
+      "parserID" : "fluorometer_csv_parser",
+      "runtime" : "node",
+      "slave_parser" : [ "csv" ],
+      "view_type" : "2D"
+    },
+    "-KTF50OcsGPUPNiiVOxq" : {
+      "added_by_user_id" : "carSpFjcKuY6vB6OsncYldLd7SA2",
+      "added_by_user_name" : "Yuriy",
+      "added_timestamp" : 1486396127917,
+      "create_logged" : true,
+      "data_type" : "file",
+      "description" : "parser for images",
+      "name" : "Images",
+      "parserID" : "image_parser",
+      "runtime" : "node",
+      "view_type" : "Image"
+    },
+    "-KTyYYllV0ob35EX3fHu" : {
+      "added_by_user_id" : "IyTDF5NOMgOCQypn0xtl4BMt0Z83",
+      "added_by_user_name" : "Assaf Anderson",
+      "added_timestamp" : 1471856032943,
+      "create_logged" : true,
+      "data_type" : "json",
+      "description" : "parser for TXT files",
+      "file_extension" : "txt",
+      "name" : "DSC txt parser",
+      "parserID" : "dsc_txt_parser",
+      "runtime" : "node",
+      "slave_parser" : [ "txt" ],
+      "view_type" : "2D"
+    },
+    "-KYmNeM0dCMbDZZfoMg-" : {
+      "added_by_user_id" : "IyTDF5NOMgOCQypn0xtl4BMt0Z83",
+      "added_by_user_name" : "Assaf Anderson",
+      "added_timestamp" : 1471856032943,
+      "create_logged" : true,
+      "data_type" : "text",
+      "description" : "parser for DOCX files",
+      "file_extension" : "DOCX",
+      "name" : "EDS parser",
+      "parserID" : "EDS_parser",
+      "runtime" : "node",
+      "slave_parser" : [ "DOCX" ],
+      "view_type" : "DOCX"
+    },
+    "-K_4fgpHfeoYkcerCp4X" : {
+      "added_by_user_id" : "IyTDF5NOMgOCQypn0xtl4BMt0Z83",
+      "added_by_user_name" : "Assaf Anderson",
+      "added_timestamp" : 1471856032943,
+      "create_logged" : true,
+      "data_type" : "json",
+      "description" : "parser for 3D",
+      "file_extension" : "TXT",
+      "name" : "AFM xyz parser",
+      "parserID" : "afm_xyz_parser",
+      "runtime" : "node",
+      "slave_parser" : [ "bmp" ],
+      "view_type" : "3D"
+    },
+    "-KafwTTqw-Fah8TBtDYs" : {
+      "added_by_user_id" : "IyTDF5NOMgOCQypn0xtl4BMt0Z83",
+      "added_by_user_name" : "Assaf Anderson",
+      "added_timestamp" : 1471856032943,
+      "create_logged" : true,
+      "data_type" : "json",
+      "description" : "",
+      "name" : "XRD:Bragg-nobrenta",
+      "parserID" : "XRD_BB_ras",
+      "runtime" : "node",
+      "view_type" : "2D"
+    },
+    "-KbzRB8uhIMSRFqshTMT" : {
+      "added_by_user_id" : "carSpFjcKuY6vB6OsncYldLd7SA2",
+      "added_by_user_name" : "Yuriy",
+      "added_timestamp" : 1486049297175,
+      "create_logged" : true,
+      "data_type" : "json",
+      "description" : "parser for .txt files generated with xrf",
+      "name" : "XRF txt parser",
+      "parserID" : "xrf_parser",
+      "runtime" : "node",
+      "view_type" : "2D"
+    },
+    "-Kdz9nstxRIW4tS0k6WT" : {
+      "added_by_user_id" : "wuYs2ZQAlgR848DGbguHyx53k7q2",
+      "added_by_user_name" : "basanth",
+      "added_timestamp" : 1488192225000,
+      "create_logged" : true,
+      "data_type" : "json",
+      "description" : "To parse the CSV file generated from Princeton Instruments",
+      "name" : "PL CSV Princeton ",
+      "parserID" : "Princeton_CSV",
+      "runtime" : "node",
+      "view_type" : "2D"
+    },
+    "-KdzABApZmS4ThJjMlVw" : {
+      "added_by_user_id" : "wuYs2ZQAlgR848DGbguHyx53k7q2",
+      "added_by_user_name" : "basanth",
+      "added_timestamp" : 1488192324510,
+      "create_logged" : true,
+      "data_type" : "json",
+      "description" : "Parsing the CSV files generated by Princeton Instruments",
+      "name" : "ULF Raman CSV Princeton ",
+      "parserID" : "ULF_Raman_CSV",
+      "runtime" : "node",
+      "view_type" : "2D"
+    },
+    "-Ke8t8ysbt-pFK2SbUCF" : {
+      "added_by_user_id" : "wuYs2ZQAlgR848DGbguHyx53k7q2",
+      "added_by_user_name" : "basanth",
+      "added_timestamp" : 1488372146283,
+      "create_logged" : true,
+      "data_type" : "json",
+      "description" : "Parsing of the MPT files generated by Biologic electrochemistry software",
+      "name" : "Potentiostat: MPT Biologic",
+      "parserID" : "biologic_MPT",
+      "runtime" : "node",
+      "view_type" : "2D"
+    },
+    "-KehDNFRvd6X-9V3u0-W" : {
+      "added_by_user_id" : "wuYs2ZQAlgR848DGbguHyx53k7q2",
+      "added_by_user_name" : "basanth",
+      "added_timestamp" : 1488964912333,
+      "create_logged" : true,
+      "data_type" : "json",
+      "description" : "To plot the battery stability charge and dischage plot",
+      "name" : "Cycle life:MPT Biologic",
+      "parserID" : "CP_cycle_mpt",
+      "runtime" : "node",
+      "view_type" : "2D"
+    }
+  },
+  "physical_measurements" : {
+    "-KZMj1aN5WuPdEsmTqsz" : {
+      "added_by_user_id" : "G4uO5shwM7fIvKZsiaTAIQL8jDx1",
+      "added_timestamp" : 1482161924657,
+      "description" : "Description",
+      "name" : "Light Intensity",
+      "wiki_url" : ""
+    },
+    "-KZMj55zrjijqnvBb2dS" : {
+      "added_by_user_id" : "G4uO5shwM7fIvKZsiaTAIQL8jDx1",
+      "added_timestamp" : 1482161940544,
+      "description" : "Description",
+      "name" : "Optical density",
+      "wiki_url" : ""
+    }
+  },
+  "sample_edit_finished" : {
+    "-KagvAaYrUVlz5bV9vKk" : {
+      "value" : true
+    },
+    "-KagvFEas5uACeHEJhAy" : {
+      "value" : true
+    },
+    "-KagvIDit81E5ljFeseN" : {
+      "value" : true
+    }
+  }
+}

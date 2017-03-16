@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "autoqa-materials-zone",
+  "private_key_id": "805a3d0468f418f9e3b8805f6574d97deb68bdfa",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDixBh8wHN+Rv0E\nMoVtCti4MWjKHWP50c3pTS5LJCV6TtS1v6NNBOGTZs4qvNQN5XS6HewnHAD37Y5P\nR1f6YIlz5JhszCx+C9L2SivJBrMNAc7p+0XLnEHapMPRIU2nyR1v5Uxkb8+ULhHU\noIhQYzBXTIzdK0edM52tRRMf7lwyv2OuQVXJZtFiYV+TCJX248dWT4XxtsmSqjxz\n+ZOAnRf1gXKNZX52imvxoj5lx3mH0N1aMiSV1LnuB3E+Daj1ti9JTibliM08xK9U\nsvMPAm0ASIS12vyJzEJpuJeWi5imCZt6PBCa5yi15E/rGcFRXaOq87OKfpQT/avP\nHqyIj4t/AgMBAAECggEBAJNs53qbZ7qODkpfSg1FQvYk8TqNdwTgWJ03l0Q0wMTO\nYU2zxEf7R2gcKybv0nEiXwvtDi2y8BI/eAikmlbl0hbtZAc/iiF8MG/8cpDj8R4g\nsdO+j3a7JLkv6zqYCzNs9d1cVpjpdCui8+anY1fX1IK8+suDKrDR8M3IHZHh1kEK\noSVjQdV1EL51o2bdHhXD7Pkjj9PtU6ph2YBhtxFjX0F2VjxMQfFALQWwFCbit0vB\ngjVS5XthU6V4aOgZRb/qJCsE6iKHQ0XsKO95VUImSiHKgnR2h0ldOfhVH1LKWqvU\nSJO7a0ohcmUrfz9E9dBtoH9BIqPneOaVe7FCaHGxjMECgYEA+H0uuSDBRV12zeRO\nHzBNZtvTteNJyVfFLKQAe0m8Dz3DQza0BE12kOKF4C2CGiTRqlLhfkZPpjyfxTv4\n3msJcf7ccc+ibvRjx35zx26/VymZHJhcQPWDrwkNXDaNf7Uc4SOTt2I4WhSDVfzw\nlWNC3QnijueGSJC1cdmFQMUgamECgYEA6Z7R26ojKdUu6NNMY+2Wf6TGCOMLUA83\ncx4tVb7steSWCFcd7WqlhAi9xdEgIy+JPJCeUL/S86Ca6lF2kRszl2zFCXcC5DDd\ndGM9Ak2nvgyjBBHI5uaEdZ1Y4Hfm5W4S8eRguOPQ1F7nCg1hFdW50ZnpxUuHaQgh\nsV81WMa4gd8CgYAutlmyM5YhlBBhZCnLcykZzPlfl/qm/vjyC2KLyrCvrMyoNgBh\nTq6bTfocynFKuOExQ6NgOZd/iKYATeXa6gQ8icynGIFQmmCnf/4D363YlNlTptCw\n5XZ70RfR3e97snBbYnTCZJRzWqfV4lbXvnEzXEha1OtJeOqjHGEQa/5MAQKBgEfg\nEAq4HpdpOkRxdcgsuafNxwvG5p0cAWBOgX4m/ma7zBkGzHNV41Rq6A/rVirdHijf\nCYYobjt8Rw0eQQ9FwiqtUTWnQuF30zpSqduCjsAe3SyMWDYJ5+jTnxt4aDZgFj4L\nmGJp3L7p78Uc9qikF8ZPxydnJGMBGHScqSoGAZAbAoGBAKKfCOebkTFD1bQZV79j\ndUhIZt5lAT1auxiqccbi8HxPEdcYcpvK/lH/Cp/8JpRu8rbjbTm71bQq032SVF8d\n78MZSter52P6YGntVsHS3tSq5CMYjp0ANsaGcVcvb2Shk/CGaaiAdgNQ6JVSYfDE\nKVJlhdOhCtinKUAvk8HYqR6F\n-----END PRIVATE KEY-----\n",
+  "client_email": "autoqa-materials-zone@autoqa-materials-zone.iam.gserviceaccount.com",
+  "client_id": "116734852243091699082",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/autoqa-materials-zone%40autoqa-materials-zone.iam.gserviceaccount.com"
+}
